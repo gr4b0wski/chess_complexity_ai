@@ -16,7 +16,7 @@ A position evaluated at `+0.0` by Stockfish can mean two things:
 
 This tool provides a **Complexity Score (0% - 100%)** to distinguish between the two, acting as a "stress meter" for the position.
 
-## ⚙️ How It Works (The Hybrid Approach)
+## How It Works (The Hybrid Approach)
 The final Complexity Score is calculated using two main pillars:
 
 1. **Neural Intuition (The AI Base):**
