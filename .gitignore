@@ -1,0 +1,4 @@
+__pycache__/
+.env
+stockfish*
+*.exe
