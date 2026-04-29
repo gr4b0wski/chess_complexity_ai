@@ -33,8 +33,8 @@ The final Complexity Score is calculated using two main pillars:
 ## Data Engineering & Model Training
 The AI model wasn't downloaded pre-trained; it was built from scratch. The codebase for the data pipeline and model training is available in the repository.
 
-1. **ETL Pipeline (`data_pipeline/etl_multicore.py`):** Parsed raw PGN files of high-rated players, filtering out blitz games and extracting clean board states. Optimized for large datasets using multiprocessing.
-2. **Data Labeling (`data_pipeline/blunder_detector.py`):** Automated the labeling process by evaluating historical moves against Stockfish to flag high-variance blunders.
+1. **ETL Pipeline (`etl_multicore.py`):** Parsed raw PGN files of high-rated players, filtering out blitz games and extracting clean board states. Optimized for large datasets using multiprocessing.
+2. **Data Labeling (`blunder_detector.py`):** Automated the labeling process by evaluating historical moves against Stockfish to flag high-variance blunders.
 3. **Training (`notebooks/model_training.ipynb`):** The CNN model was trained in Google Colab using TensorFlow/Keras to predict blunder probabilities based purely on spatial piece configuration.
 
 ## Screenshots
