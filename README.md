@@ -51,7 +51,7 @@ Due to GitHub's storage constraints:
 * The raw Lichess PGN datasets (100+ GB) are not included.
 * The compiled Stockfish binary required for real-time variance calculation is excluded.
 
-Therefore, this app is **not intended for local plug-and-play execution**. The provided code (`app.py`, `data_pipeline/`, and `notebooks/`) demonstrates the architecture, data processing techniques, and the mathematical logic behind the hybrid complexity engine.
+Therefore, this app is **not intended for local plug-and-play execution**. The provided code demonstrates the architecture, data processing techniques, and the mathematical logic behind the hybrid complexity engine.
 
 ## Tech Stack
 * **Deep Learning:** TensorFlow / Keras (CNN Architecture)
